@@ -12,8 +12,6 @@ typedef std::bitset<32> B32;
 //typedef std::bitset<28> B28;
 //typedef std::bitset<24> B24;
 
-typedef enum { e, d } Method;
-
 
 
 B48 e_box(const B48& in); //EÍØÕ¹
