@@ -1,7 +1,7 @@
 # Introduction
 Here is some c++ implementations of DES(Data Encrypt Standard) and it attack.
 
-## DES implementation
+# DES implementation
 Two kinds of implementation are included.
 1. A intelligible implementation based on the <bitset.h>.
 2. A Faster implementation based on bit operation.
