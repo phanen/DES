@@ -139,11 +139,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="des.cpp" />
+    <ClCompile Include="avalanche.cpp" />
+    <ClCompile Include="des_attack.cpp" />
+    <ClCompile Include="main_bitset.cpp" />
+    <ClCompile Include="des_bitset.cpp" />
+    <ClCompile Include="main_raw.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="des_attack_log.hpp" />
+    <ClInclude Include="des_bitset.h" />
     <ClInclude Include="des.h" />
+    <ClInclude Include="des_implementation.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="testbench.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

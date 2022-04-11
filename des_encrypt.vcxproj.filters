@@ -13,18 +13,47 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\des_implementation">
+      <UniqueIdentifier>{8573d058-bc55-4e41-a5de-1bdafc20216c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\des_attack">
+      <UniqueIdentifier>{86029e3d-4e12-4335-8b92-c5fabbc2a241}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="avalanche.cpp">
+      <Filter>源文件\des_implementation</Filter>
     </ClCompile>
-    <ClCompile Include="des.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="des_bitset.cpp">
+      <Filter>源文件\des_implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="main_bitset.cpp">
+      <Filter>源文件\des_implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="main_raw.cpp">
+      <Filter>源文件\des_implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="des_attack.cpp">
+      <Filter>源文件\des_attack</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="des_bitset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="des.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="des_attack_log.hpp">
+      <Filter>源文件\des_attack</Filter>
+    </ClInclude>
+    <ClInclude Include="des_implementation.hpp">
+      <Filter>源文件\des_attack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="testbench.txt">
+      <Filter>源文件\des_implementation</Filter>
+    </Text>
   </ItemGroup>
 </Project>
